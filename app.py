@@ -418,7 +418,7 @@ with tab1:
 
     col1, col2 = st.columns(2)
     with col1:
-        weight = st.number_input("Weight (kg)", min_value=0.0, step=1.0, format="%.0f", value=500)
+        weight = st.number_input("Weight (kg)", min_value=0.0, step=1.0, format="%.0f", value=500.0)
     with col2:
         unit = st.radio("Unit", ["kg", "lb"], horizontal=True)
         if unit == "lb":
